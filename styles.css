@@ -37,3 +37,18 @@ input {
 	width: 200px;
 	height: 200px;
 }
+
+#adamPic {
+	width: 600px;
+	height: 300px;
+}
+
+.profile-heading {
+	display: flex;
+	justify-content: center;
+}
+
+#contact {
+	display: flex;
+	flex-direction: column;
+}

@@ -10,11 +10,10 @@ function handleSubmit(evt) {
 
 
 let form = document.querySelector('form#contact');
-
-form.addEventListener('submit', handleSubmit);
-
 let happyDuck = document.querySelector('#duckPic');
 
+form.addEventListener('submit', handleSubmit);
 happyDuck.addEventListener('mouseover', () => {
 	alert('Look at you, crushing this assessment!')
 });
+
