@@ -33,6 +33,7 @@ input {
 	display: block;
 }
 
-img {
-	max-width: 300px;
+#duckPic {
+	width: 200px;
+	height: 200px;
 }
