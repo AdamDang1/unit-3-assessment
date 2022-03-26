@@ -39,7 +39,7 @@ input {
 }
 
 #adamPic {
-	width: 600px;
+	width: 500px;
 	height: 300px;
 }
 
@@ -48,7 +48,32 @@ input {
 	justify-content: center;
 }
 
-#contact {
+#contact-profile {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+}
+
+#profile-btns {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.fave-btn {
+	background-color: yellow;
+	height: 30px;
+	width: 150px;
+	border-radius: 10px;
+}
+
+.fave-btn:hover {
+	background-color: blue;
+	color: white;
+	transform: scale(1.25, 1.25);
+	box-shadow: 0 0 35px black;
+	cursor: pointer;
+	transition: .5s;
 }
