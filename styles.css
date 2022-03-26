@@ -2,7 +2,7 @@ body {
   background: #ddd;
   margin: 1rem;
   padding: 1rem;
-  max-width: 500px;
+  max-width: 600px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
 }
@@ -39,7 +39,7 @@ input {
 }
 
 #adamPic {
-	width: 500px;
+	width: 600px;
 	height: 300px;
 }
 
@@ -76,4 +76,19 @@ input {
 	box-shadow: 0 0 35px black;
 	cursor: pointer;
 	transition: .5s;
+}
+
+#explore-header {
+	color: purple;
+	background-color: gold;
+	text-decoration: underline;
+}
+
+#random-btn {
+	color: green;
+	background-color: gold;
+	border-radius: 25px;
+	height: 100px;
+	width: 300px;
+	font-weight: 700;
 }
